@@ -11,5 +11,5 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  
+  puts "#{name} is number #{katz_deli.length}"
 end
