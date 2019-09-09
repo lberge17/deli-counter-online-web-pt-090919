@@ -6,6 +6,6 @@ def line(array)
     array.each_with_index do |name, index|
       statement << " #{index + 1}. #{name}"
     end
-    statement
+    puts statement
   end
 end
